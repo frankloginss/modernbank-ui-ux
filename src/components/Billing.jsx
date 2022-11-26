@@ -12,7 +12,7 @@ const Billing = () => (
       {/* gradient end */}
     </div>
 
-    <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionInfo} py-10`}>
       <h2 className={styles.heading2}>
         Easily control your <br className="sm:block hidden" /> billing &
         invoicing
