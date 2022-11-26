@@ -13,6 +13,8 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
+    navBar: "sm:fixed sm:p-4 sm:w-[80%] lg:left-52",
   };
   
   export const layout = {

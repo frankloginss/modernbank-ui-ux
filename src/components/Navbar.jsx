@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import styles from "../style";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     // <nav className="max-w-7xl fixed inset-x-0 z-10 opa w-full flex py-6 justify-between items-center navbar">
-    <nav className="fixed z-10 top-0 p-4 opa w-full flex py-6 justify-between items-center bg-gray-gradient rounded-full navbar">
+    <nav className={`${styles.navBar} fixed z-10 top-0 opa w-full flex px-6 py-4 justify-between items-center bg-gray-gradient rounded-full`}>
       <img src={logo} alt="modernbank" className="w-[124px] h-[32px]" />
 
       <ul className="mr-12 list-none sm:flex hidden justify-end items-center flex-1">
